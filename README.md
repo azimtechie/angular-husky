@@ -1,27 +1,34 @@
-# AngularHusky
+# Angular Husky
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+Source code used in the article [Configure Husky with Angular](https://www.blouppy.com/blog/2023-05-14-configure-husky-with-angular/) on the [Blouppy](https://www.blouppy.com) website.
 
-## Development server
+## Project type
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular project.
 
-## Code scaffolding
+## Project version
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular 15. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
-## Build
+## NPM packages includes
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **@angular-eslint/builder**: 15.2.1 (An Angular CLI Builder which is used to execute ESLint on the Angular project using standard commands such as `ng lint`.)
+- **@angular-eslint/eslint-plugin**: 15.2.1 (An ESLint-specific plugin that contains rules which are specific to Angular projects. It can be combined with any other ESLint plugins in the normal way.)
+- **@angular-eslint/eslint-plugin-template**: 15.2.1 (An ESLint-specific plugin which, when used in conjunction with @angular-eslint/template-parser, allows for Angular template-specific linting rules to run.)
+- **@angular-eslint/schematics**: 15.2.1 (Schematics which are used to add and update configuration files which are relevant for running ESLint on an Angular workspace.)
+- **@angular-eslint/template-parser**: 15.2.1 (An ESLint-specific parser which leverages the @angular/compiler to allow for custom ESLint rules to be written which assert things about your Angular templates.)
+- **@commitlint/cli**: 17.6.3 (Lint your commit messages)
+- **@commitlint/config-conventional**: 17.6.3 (Shareable commitlint config enforcing conventional commits)
+- **eslint**: 8.33.0
+- **eslint-config-prettier**: 8.8.0 (Turns off all rules that are unnecessary or might conflict with Prettier.)
+- **husky**: 8.0.3 (Modern native Git hooks made easy)
+- **lint-staged**: 13.2.2 (Lint files staged by git)
+- **prettier**: 2.8.8
 
-## Running unit tests
+## Give a Star! :star:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+If you like or are using this project please give it a star. Thanks!
 
-## Running end-to-end tests
+## Support this project! :pray:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+If you want to help me to maintain this project or add improvements, it would be a pleasure!
