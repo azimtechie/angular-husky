@@ -8,6 +8,6 @@ import {Component} from '@angular/core';
 export class AppComponent {
   title = 'angular-husky';
   constructor() {
-    console.log('test');
+    console.log('tests');
   }
 }

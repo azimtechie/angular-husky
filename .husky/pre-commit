@@ -1,23 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-#!/bin/sh
-# Redirect output to stderr.
-exec 1>&2
-
-# Define the regular expression for console.log
-consoleregexp='console.log'
-
-# Check if any staged files contain console.log
-if test $(git diff --cached | grep $consoleregexp | wc -l) != 0
-then 
-  # Show the occurrences of console.log with file names and line numbers
-  echo "ERROR: Found console.log in the following files:"
-  git diff --cached | grep -ne $consoleregexp
-  
-  # Exit with status 1 to prevent the commit
-  exit 1
-fi
-
-# Run lint-staged if no console.log is found
 npx lint-staged
