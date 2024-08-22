@@ -9,6 +9,6 @@ import {Router} from '@angular/router';
 export class AppComponent {
   title = 'angular-husky';
   constructor(private router: Router) {
-    // console.log('test');
+    console.error(this.title);
   }
 }
