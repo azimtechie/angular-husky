@@ -10,6 +10,7 @@
     "format-check": "prettier --check \"src/app/**/*.{json,css,scss,less,md,ts,html}\"",
     "format": "prettier --write \"src/app/**/*.{json,css,scss,less,md,ts,html}\"",
     "prepare": "husky install",
+    "create-hook": "husky add .husky/pre-commit \"npx lint-staged\"",
     "lint": "ng lint"
   },
   "private": true,
