@@ -9,5 +9,6 @@ export class AppComponent {
   title = 'angular-husky';
   constructor() {
     console.log('tests');
+    console.error('tests');
   }
 }
